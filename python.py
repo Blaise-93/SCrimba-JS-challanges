@@ -31,3 +31,14 @@ def is_anagram(str1, str2):
 print(is_anagram("allergy", "gallery"))
 print(is_anagram("treasure", "measure"))
 print(is_anagram("cider", "cried"))
+
+ 
+"""  challange 9 -> ispalindrome? """
+def is_palindrome(string):
+    return string == string[:: -1] # via slice method 
+# Test your function
+print(is_palindrome("abba"))
+print(is_palindrome("civic"))
+print(is_palindrome("octopus"))
+print(is_palindrome("pumpkins"))
+print(is_palindrome("madam"))
