@@ -21,3 +21,13 @@ def emojifyWord(word):
 
 print(emojifyWord(":heart:"))
 
+# 7 challange -> is_anagram?
+
+def is_anagram(str1, str2):
+    if len(str1) != len(str2):
+        return False
+    return sorted(str1) == sorted(str2)
+
+print(is_anagram("allergy", "gallery"))
+print(is_anagram("treasure", "measure"))
+print(is_anagram("cider", "cried"))
