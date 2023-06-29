@@ -42,3 +42,6 @@ print(is_palindrome("civic"))
 print(is_palindrome("octopus"))
 print(is_palindrome("pumpkins"))
 print(is_palindrome("madam"))
+
+
+
