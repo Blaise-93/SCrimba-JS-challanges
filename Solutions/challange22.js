@@ -41,3 +41,39 @@ function getUniqueTagx(arr) {
 }
 
 console.log(getUniqueTagx(mediaData))
+
+
+
+// FOR MORE SYSTEM OPTIMIZATION - BIG DATA, use filter method, then convert the data to array.
+// sorry for the double 'ss' in our function  it was intentional
+function getUniqueTagss(data){
+    const tags = data.map(podcast => podcast.tags).flat();
+    const uniqueTags = {};
+
+    tags.filter(tag => {
+         /* 
+         // look up the tag in the uniqueTags obj
+            if(!uniqueTags[tag]) {
+                uniqueTags[tag] = true
+            return true
+                
+            }
+            return false
+          */
+         // using itenary operator
+         return !uniqueTags[tag] === true ? uniqueTags[tag] = true :false
+    })
+       
+    return uniqueTags;
+}
+
+function convertTagsToArr() {
+    const objUniqueTags = getUniqueTagss(mediaData)
+    const newArr = Object.keys(objUniqueTags)
+    return newArr
+}
+
+convertTagsToArr()
+
+console.log(convertTagsToArr());
+
