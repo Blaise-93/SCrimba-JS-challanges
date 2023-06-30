@@ -1,5 +1,5 @@
 # challange 6 solution via python 😊
-
+from Solutions.module import candy
 emojis = {
     "smile": "😊",
     "angry": "😠",
@@ -74,3 +74,5 @@ def find_winner(obj):
 
 
 print(find_winner(game_night_food))
+
+# challange 19
