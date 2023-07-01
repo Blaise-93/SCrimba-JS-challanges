@@ -61,7 +61,7 @@ How to link images to my markdown files => ![](paste the link here)
 
 OR [for the image, use html path code]
 
-<img src="https://github.com/Blaise-93/build-a-playing-game-1/blob/master/images/goblin.png" width="50" height="10"/>
+<img src="https://github.com/Blaise-93/build-a-playing-game-1/blob/master/images/goblin.png" width="100" height="20"/>
 
 NB:
 Another good tools you can use to write and optimize your markdown is [For Readme Contents](https://readme.so/editor) and after you are done, you can download it from their website
