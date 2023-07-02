@@ -4,7 +4,8 @@ const shoppingCart = require('./module/candy')
 // my soln => However I think might have a bit slow performance since we mapped it prior to reducing it, but
 //it is more understandable/readable .
 function total(arr) {
-    let totalPrice = arr.map(item => item.price).reduce((accumulator, currentPrice) => accumulator + currentPrice)
+    let totalPrice = arr.map(item => item.price)
+        .reduce((accumulator, currentPrice) => accumulator + currentPrice)
     return totalPrice.toFixed(2)
 } 
  // OR
