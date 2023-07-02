@@ -10,10 +10,12 @@ function createDescriptionsFor(data){
         const duration = `${podcast.duration}`
         const hosts = `${podcast.hosts}`
         const genre = `${podcast.genre}`
-        //console.log(hosts)
+        //OR const {title, duration, hosts, genre} = podcast
         
         return  {
                 ...podcast,
+                // I went ahead for the stretch goal instead, 
+                // for only one host, we can use indexing to access it => ${hosts[0]}
                 description: `${title} is a ${duration} minutes ${genre} hosted by ${hosts}`
             }
                 
