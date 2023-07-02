@@ -11,7 +11,7 @@ function calcAverageLikes(data){
   return avLikesByIggy.toFixed(0.1)
 } 
  
-// OR from tutor
+// OR from tutor, Mrs Treasure Porth
 function calcAvLikes(data){
     // reduce to single total
     const total = data.reduce((acc, curr)=> {
