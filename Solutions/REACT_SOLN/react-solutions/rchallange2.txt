@@ -1,0 +1,11 @@
+React limitations are: 
+* It is a library, not a framework {expressJS, nextJS are frameworks}
+* It is large
+*  Being owned by facebook => so they make decision
+*  Lack of Proper Documentation => function compt is the future of react
+* It is an open source
+*It uses JSX, a syntax extension to JS which is not frindly to some aspiring developers
+Problems With SEO: There have been concerns that Google 
+used to have problems with indexing dynamic websites with client-side
+ rendering. Thus, it requires much expertise from developers. If done wrong,
+ it would not be possible for it to work.

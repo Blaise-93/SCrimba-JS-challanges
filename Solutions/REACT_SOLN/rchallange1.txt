@@ -1,0 +1,27 @@
+ANS:
+
+Virtual DOM 
+* can't directly update HTML
+
+* Acts as a copy of the real DOM, which 
+can be frequently manipulated and updated without
+a page refresh.
+
+* more of a pattern than a specific technolgy
+
+*synced with the real DOM with 'react-dom'
+ 
+ WHILE;
+ Real DOM:
+ * Directly updates and manipulates HTML
+
+ * creates a new DOM?full repaint if it is updated
+
+ * An object-based representation of a HTML doc + interface
+ for manipulating that object.
+
+
+ The Key is diffing => what VD is that it looks at diff between one state from the next 
+ state and update that state in the dom instead of updating everything at a go
+
+ SHadow DOM => is browser-specific technolgy.
