@@ -1,3 +1,3 @@
-What are the limitations of REACT:
+What are the limitations of REACT?
 
 
